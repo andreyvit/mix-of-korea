@@ -12,6 +12,11 @@
 		434D4E871C70B52D001CE272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E851C70B52D001CE272 /* Main.storyboard */; };
 		434D4E891C70B52D001CE272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E881C70B52D001CE272 /* Assets.xcassets */; };
 		434D4E8C1C70B52D001CE272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E8A1C70B52D001CE272 /* LaunchScreen.storyboard */; };
+		434D4E941C70B67F001CE272 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434D4E931C70B67F001CE272 /* Player.swift */; };
+		434D4E9C1C70B8BE001CE272 /* The Passion HiFi - I Close My Eyes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E971C70B8BE001CE272 /* The Passion HiFi - I Close My Eyes.mp3 */; };
+		434D4E9D1C70B8BE001CE272 /* The Passion HiFi - Never As Good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E981C70B8BE001CE272 /* The Passion HiFi - Never As Good.mp3 */; };
+		434D4E9E1C70B8BE001CE272 /* The Passion HiFi - Ricochet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E991C70B8BE001CE272 /* The Passion HiFi - Ricochet.mp3 */; };
+		434D4E9F1C70B8BE001CE272 /* podfm_golos-korei_northk_318.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E9B1C70B8BE001CE272 /* podfm_golos-korei_northk_318.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		434D4E881C70B52D001CE272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434D4E8B1C70B52D001CE272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		434D4E8D1C70B52D001CE272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434D4E931C70B67F001CE272 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		434D4E971C70B8BE001CE272 /* The Passion HiFi - I Close My Eyes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Passion HiFi - I Close My Eyes.mp3"; sourceTree = "<group>"; };
+		434D4E981C70B8BE001CE272 /* The Passion HiFi - Never As Good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Passion HiFi - Never As Good.mp3"; sourceTree = "<group>"; };
+		434D4E991C70B8BE001CE272 /* The Passion HiFi - Ricochet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Passion HiFi - Ricochet.mp3"; sourceTree = "<group>"; };
+		434D4E9B1C70B8BE001CE272 /* podfm_golos-korei_northk_318.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "podfm_golos-korei_northk_318.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				434D4E801C70B52D001CE272 /* Mix of Korea */,
+				434D4E951C70B8BE001CE272 /* Audio */,
 				434D4E7F1C70B52D001CE272 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +67,41 @@
 			children = (
 				434D4E811C70B52D001CE272 /* AppDelegate.swift */,
 				434D4E831C70B52D001CE272 /* ViewController.swift */,
+				434D4E931C70B67F001CE272 /* Player.swift */,
 				434D4E851C70B52D001CE272 /* Main.storyboard */,
 				434D4E881C70B52D001CE272 /* Assets.xcassets */,
 				434D4E8A1C70B52D001CE272 /* LaunchScreen.storyboard */,
 				434D4E8D1C70B52D001CE272 /* Info.plist */,
 			);
 			path = "Mix of Korea";
+			sourceTree = "<group>";
+		};
+		434D4E951C70B8BE001CE272 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				434D4E961C70B8BE001CE272 /* Background */,
+				434D4E9A1C70B8BE001CE272 /* Radio */,
+			);
+			name = Audio;
+			path = ../Audio;
+			sourceTree = "<group>";
+		};
+		434D4E961C70B8BE001CE272 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				434D4E971C70B8BE001CE272 /* The Passion HiFi - I Close My Eyes.mp3 */,
+				434D4E981C70B8BE001CE272 /* The Passion HiFi - Never As Good.mp3 */,
+				434D4E991C70B8BE001CE272 /* The Passion HiFi - Ricochet.mp3 */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		434D4E9A1C70B8BE001CE272 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				434D4E9B1C70B8BE001CE272 /* podfm_golos-korei_northk_318.mp3 */,
+			);
+			path = Radio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +137,11 @@
 					434D4E7D1C70B52D001CE272 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = D963M2VVCH;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,8 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				434D4E8C1C70B52D001CE272 /* LaunchScreen.storyboard in Resources */,
+				434D4E9D1C70B8BE001CE272 /* The Passion HiFi - Never As Good.mp3 in Resources */,
 				434D4E891C70B52D001CE272 /* Assets.xcassets in Resources */,
+				434D4E9E1C70B8BE001CE272 /* The Passion HiFi - Ricochet.mp3 in Resources */,
+				434D4E9C1C70B8BE001CE272 /* The Passion HiFi - I Close My Eyes.mp3 in Resources */,
 				434D4E871C70B52D001CE272 /* Main.storyboard in Resources */,
+				434D4E9F1C70B8BE001CE272 /* podfm_golos-korei_northk_318.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				434D4E841C70B52D001CE272 /* ViewController.swift in Sources */,
+				434D4E941C70B67F001CE272 /* Player.swift in Sources */,
 				434D4E821C70B52D001CE272 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

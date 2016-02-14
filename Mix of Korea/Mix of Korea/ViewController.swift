@@ -6,5 +6,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    @IBAction private func play(sender: AnyObject?) {
+        Player.instance.startPlaying()
+    }
+
 }
 
