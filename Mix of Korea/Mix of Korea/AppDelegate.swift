@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(application: UIApplication) {
+        Mixer.instance.startPlaying()
     }
 
     func applicationWillTerminate(application: UIApplication) {

@@ -17,6 +17,7 @@
 		434D4E9D1C70B8BE001CE272 /* The Passion HiFi - Never As Good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E981C70B8BE001CE272 /* The Passion HiFi - Never As Good.mp3 */; };
 		434D4E9E1C70B8BE001CE272 /* The Passion HiFi - Ricochet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E991C70B8BE001CE272 /* The Passion HiFi - Ricochet.mp3 */; };
 		434D4E9F1C70B8BE001CE272 /* podfm_golos-korei_northk_318.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 434D4E9B1C70B8BE001CE272 /* podfm_golos-korei_northk_318.mp3 */; };
+		434D4EA11C70BC44001CE272 /* Mixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434D4EA01C70BC44001CE272 /* Mixer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		434D4E981C70B8BE001CE272 /* The Passion HiFi - Never As Good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Passion HiFi - Never As Good.mp3"; sourceTree = "<group>"; };
 		434D4E991C70B8BE001CE272 /* The Passion HiFi - Ricochet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Passion HiFi - Ricochet.mp3"; sourceTree = "<group>"; };
 		434D4E9B1C70B8BE001CE272 /* podfm_golos-korei_northk_318.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "podfm_golos-korei_northk_318.mp3"; sourceTree = "<group>"; };
+		434D4EA01C70BC44001CE272 /* Mixer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mixer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				434D4E811C70B52D001CE272 /* AppDelegate.swift */,
 				434D4E831C70B52D001CE272 /* ViewController.swift */,
+				434D4EA01C70BC44001CE272 /* Mixer.swift */,
 				434D4E931C70B67F001CE272 /* Player.swift */,
 				434D4E851C70B52D001CE272 /* Main.storyboard */,
 				434D4E881C70B52D001CE272 /* Assets.xcassets */,
@@ -188,6 +191,7 @@
 				434D4E841C70B52D001CE272 /* ViewController.swift in Sources */,
 				434D4E941C70B67F001CE272 /* Player.swift in Sources */,
 				434D4E821C70B52D001CE272 /* AppDelegate.swift in Sources */,
+				434D4EA11C70BC44001CE272 /* Mixer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

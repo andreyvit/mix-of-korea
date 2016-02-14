@@ -3,12 +3,14 @@ import AVFoundation
 
 public class Player: NSObject {
 
-    public static let instance = Player()
+    private let debugName: String
 
     private var avplayer: AVPlayer?
     private var avitem: AVPlayerItem?
 
-    public override init() {
+    public init(debugName: String) {
+        self.debugName = debugName
+
         super.init()
 
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "itemDidPlayToEndTime:", name: AVPlayerItemDidPlayToEndTimeNotification, object: nil)
@@ -18,21 +20,13 @@ public class Player: NSObject {
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }
 
-    public func initializeAudioSession() {
-        let session = AVAudioSession.sharedInstance()
-        try! session.setCategory(AVAudioSessionCategoryPlayback)
-        try! session.setActive(true)
-//        do {
-//        } catch let e {
-//            print("Failed: \(e)")
-//        }
+    public override var description: String {
+        return "Player(\(debugName))"
     }
 
-    public func startPlaying() {
-        print("startPlaying")
-        initializeAudioSession()
+    public func startPlaying(url: NSURL) {
+        print("\(self): startPlaying for \(url.absoluteString)")
 
-        let url = NSBundle.mainBundle().URLForResource("podfm_golos-korei_northk_318.mp3", withExtension: nil)!
         let asset = AVAsset(URL: url)
         let avitem = AVPlayerItem(asset: asset)
         self.avitem = avitem
